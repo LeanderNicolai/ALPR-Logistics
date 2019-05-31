@@ -9,4 +9,10 @@ Due to GDPR and Privacy Laws it is obviously not possible to show a recording fr
 
 ## How to use this project
 
+1. Clone this repository
+2. Install all dependencies
+3. Change video file source in plate_recog.py
+4. Specify an output path if you wish to save the video tracking output
+5. Change the database connections in func_base.py if you wish to log the read plated in your database
+6. You're ready to go!
 
