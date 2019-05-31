@@ -10,9 +10,11 @@ Due to GDPR and Privacy Laws it is obviously not possible to show a recording fr
 ## How to use this project
 
 1. Clone this repository
-2. Install all dependencies
-3. Change video file source in plate_recog.py
-4. Specify an output path if you wish to save the video tracking output
-5. Change the database connections in func_base.py if you wish to log the read plated in your database
-6. You're ready to go!
+2. Install all dependencies needed to run darkflow (will have a more elaborate explanation soon)
+3. Download the weight files from [here:](https://drive.google.com/open?id=1s9_MLP9ABkC4xOZ0BPGEAnnlGimya6p3)
+4. Create a folder in the folder of this repo named 'ckpt' and put the downloaded weight files in there
+4. Change video file source in plate_recog.py to run plate recognition and OCR on your own video source
+5. Specify an output path if you wish to save the video tracking output
+6. Change the database connections in func_base.py if you wish to log the read plated in your database
+7. You're ready to go: Run plate_recog.py and you will get a real time view of the plate recognition and OCR!
 
