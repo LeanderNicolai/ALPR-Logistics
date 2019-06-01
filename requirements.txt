@@ -1,0 +1,6 @@
+numpy
+cython
+tensorflow
+opencv-contrib-python
+pytesseract
+sqlalchemy
