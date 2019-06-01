@@ -10,7 +10,7 @@ Due to GDPR and Privacy Laws it is obviously not possible to show a recording fr
 ## How to use this project
 
 1. Clone this repository
-2. Install the requirements by running the following command in your shell, with a (conda) virtual environment if you prefer.
+2. Install the requirements by running the following command in your shell while in this repository:
 
 ```pip install -r requirements.txt```
 
