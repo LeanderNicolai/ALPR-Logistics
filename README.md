@@ -21,24 +21,24 @@ Due to GDPR and Privacy Laws it is obviously not possible to show a recording fr
 6. Change the database connections in plate_recog.py if you wish to log the read plates in your database (Line 39)
 7. You're ready to go: Run plate_recog.py and you will get a real time view of the plate recognition and OCR!
 
-##How this project was created
+## How this project was created
 
-###Intro -- Reasoning behind the project
+### Intro -- Reasoning behind the project
 This project was created in order to gain knowledge in the field of computer vision while also creating a solution which could that could provide some form of business value by automating specific processes. Since Logistical Tracking is something that not all companies can afford to do, since it often requires manpower and can be quite mundane (at least to a certain degree). Therefore the idea was to create a logistics tracking system that automatically logs license plates, creating data about the user's business which can then later provide valuable insights.
 
 In order for this solution to work, quite a few interesting hurdles had be overcome, which are described below. 
 
-###Retraining YOLO
+### Retraining YOLO
 1. Shooting my own training footage
 2. Annotation of Images
 3. Reformatting of Output Files
 4. Training the Network
 5. The results
 
-###Optical Character Recognition
+### Optical Character Recognition
 
-####Testing Pytesseract
+#### Testing Pytesseract
 
-####My Own Pre-Processing Pipeline
+#### My Own Pre-Processing Pipeline
 
-###Database Storage
+### Database Storage
