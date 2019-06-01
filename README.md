@@ -10,7 +10,10 @@ Due to GDPR and Privacy Laws it is obviously not possible to show a recording fr
 ## How to use this project
 
 1. Clone this repository
-2. Install the requirements by running the following command in your shell, with a (conda) virtual environment if you prefer.         ```pip install -r requirements.txt```
+2. Install the requirements by running the following command in your shell, with a (conda) virtual environment if you prefer.
+
+```pip install -r requirements.txt```
+
 3. Download the weight files from [here:](https://drive.google.com/open?id=1s9_MLP9ABkC4xOZ0BPGEAnnlGimya6p3)
 4. Create a folder in the folder of this repo named 'ckpt' and put the downloaded weight files in there
 4. Change video file source in plate_recog.py to run plate recognition and OCR on your own video source. (Line 31)
