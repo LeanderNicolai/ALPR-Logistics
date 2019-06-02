@@ -38,8 +38,14 @@ I used the BBox Label Tool, which runs on Python 2.0, in order to annotate the i
 
 ##### 3. Reformatting of Output Files
 Since the output of the BBox Label tool did not output the coordinates of the bounding boxes in a Pascal VOC format, which is in XML, I wrote a Python script that makes the conversion that is seen in the image below. That script can be found [here](https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/PascalReformat.py).
+
+<img align="center" width="600" src="https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/imgs/P5.jpg">
+
 ##### 4. Training the Network
 Once the images the network had to be trained. The total training took about 48 hours.
+
+<img align="center" width="400" src="https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/imgs/P6.jpg">     <img align="center" width="400"  src="https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/imgs/P7.jpg">
+
 ##### 5. The results
 The results after 48 hours were quite good, with adequate tracking that allowed for continuation witht the OCR part of the project.
 
