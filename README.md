@@ -25,7 +25,7 @@ Due to GDPR and Privacy Laws it is obviously not possible to show a recording fr
 ## How this project was created
 
 ### Intro -- Reasoning behind the project
- This project was created in order to gain knowledge in the field of computer vision while also creating a solution could that could provide some form of business value by automating specific processes. Since Logistical Tracking is something that not all companies can afford to do, since it often requires manpower and can be quite mundane (at least to a certain degree). Therefore the idea was to create a logistics tracking system that automatically logs license plates, creating data about the user's business which can then later provide valuable insights.
+ This project was created in order to gain knowledge in the field of computer vision while also creating a solution could that could provide some form of business value by automating specific processes. Logistical Tracking is something that not all companies can afford to do, since it often requires manpower and can be quite mundane (at least to a certain degree). Therefore the idea was to create a logistics tracking system that automatically logs license plates, creating data about the user's business which can then later provide valuable insights.
 
 In order for this solution to work, quite a few interesting hurdles had be overcome, which are described below.
 
