@@ -65,5 +65,5 @@ The results of using Tessearct directly on the bounding boxes drawn by the retra
 The project makes use of simple a SQL Alchemy Engine in order to send the read plates into the database. Since the OCR is not perfect yet, some filtering techniques were used in order to optimize correct storage.
 
 
-#### Improvements
-Since this project was developed in little over a week, a lot of improvements could be made to this project. The main improvement would be to add more data into the YOLO Network, in order to improve the robustness of the bounding boxes. Secondly more experimentation could be done concerning the pre-processing in order to improve the OCR.
+## Future Improvements
+Since this project was developed in merely a week, a lot of improvements could be made to this project. The main improvement would be to add more data into the YOLO Network, in order to improve the robustness of the bounding boxes. Secondly more experimentation could be done concerning the pre-processing in order to improve the OCR. Lastly, an important feature that could be added is an extensive dashboarding tool that creates effective overviews and insights of the user's logistics. 
