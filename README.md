@@ -8,7 +8,7 @@ Due to GDPR and Privacy Laws it is obviously not possible to show a recording fr
 
 ![ALPR DEMO](https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/DEMO.gif)
 
-## How to use this project
+## How to use this project to read your own numberplates and automate your logistics:
 
 1. Clone this repository
 2. Install the requirements by running the following command in your shell while in this repository:
