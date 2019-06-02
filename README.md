@@ -34,7 +34,7 @@ For this project I had to shoot my own training footage by the side of a public 
 ##### 2. Annotation of Images
 I used the BBox Label Tool, which runs on Python 2.0, in order to annotate the images. Over a thousand images were annotated. That looked something like this.
 
-<img align="left" width="100" height="100" src="https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/imgs/P1.jpg"><img align="right" width="100" height="100" src="https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/imgs/P2.jpg">
+<img align="left" width="200" src="https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/imgs/P1.jpg"><img align="left" width="200"  src="https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/imgs/P2.jpg">
 
 ##### 3. Reformatting of Output Files
 Since the output of the BBox Label tool did not output the coordinates of the bounding boxes in a Pascal VOC format, which is in XML, I wrote a Python script that makes the conversion that is seen in the image below. That script can be found [here](https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/PascalReformat.py).
