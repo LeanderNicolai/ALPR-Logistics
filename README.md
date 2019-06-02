@@ -34,7 +34,7 @@ For this project I had to shoot my own training footage by the side of a public 
 ##### 2. Annotation of Images
 I used the BBox Label Tool, which runs on Python 2.0, in order to annotate the images. Over a thousand images were annotated. That looked something like this.
 
-<img align="center" width="200" src="https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/imgs/P1.jpg">     <img align="center" width="200"  src="https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/imgs/P2.jpg">
+img align="center" width="400" src="https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/imgs/P3.jpg">
 
 ##### 3. Reformatting of Output Files
 Since the output of the BBox Label tool did not output the coordinates of the bounding boxes in a Pascal VOC format, which is in XML, I wrote a Python script that makes the conversion that is seen in the image below. That script can be found [here](https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/PascalReformat.py).
@@ -48,6 +48,9 @@ For the optical character recognition Tesseract was used, which is an Open Sourc
 
 #### My Own Pre-Processing Pipeline
 The results of using Tessearct directly on the bounding boxes drawn by the retrained network gave unsatisfactory results. Therefore some preprocessing and transformation had to be done. With use of some simple contract changes, and a hough transform in order to straighten out the image, the results were greatly improved.
+
+<img align="center" width="200" src="https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/imgs/P1.jpg">     <img align="center" width="200"  src="https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/imgs/P2.jpg">
+
 
 ### Database Storage
 The project makes use of simple a SQL Alchemy Engine in order to send the read plates into the database. Since the OCR is not perfect yet, some filtering techniques were used in order to optimize correct storage.
