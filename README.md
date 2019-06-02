@@ -32,9 +32,10 @@ In order for this solution to work, quite a few interesting hurdles had be overc
 ##### 1. Shooting my own training footage
 For this project I had to shoot my own training footage by the side of a public road, which then had to be annotated in order to train the network.
 ##### 2. Annotation of Images
-I used the BBox Label Tool, which runs on Python 2.0, in order to annotate the images. Over a thousand images were annotated. That looked something like this:
+I used the BBox Label Tool, which runs on Python 2.0, in order to annotate the images. Over a thousand images were annotated. That looked something like this.
+![image](https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/imgs/P1.jpg)![image](https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/imgs/P2.jpg)
 ##### 3. Reformatting of Output Files
-Since the output of the BBox Label tool did not output the coordinates of the bounding boxes in a Pascal VOC format, which is in XML, I wrote a Python script that makes the conversion that is seen in the image below. That script can be found [here:]()
+Since the output of the BBox Label tool did not output the coordinates of the bounding boxes in a Pascal VOC format, which is in XML, I wrote a Python script that makes the conversion that is seen in the image below. That script can be found [here](https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/PascalReformat.py).
 ##### 4. Training the Network
 Once the images the network had to be trained. The total training took about 48 hours.
 ##### 5. The results
