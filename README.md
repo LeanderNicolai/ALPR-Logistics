@@ -37,7 +37,7 @@ For this project I had to shoot my own training footage by the side of a public 
 ##### 2. Annotation of Images
 I used the BBox Label Tool, which runs on Python 2.0, in order to annotate the images. Over a thousand images were annotated. That looked something like this.
 
-<img align="center" width="400" src="https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/imgs/P3.jpg">
+<img align="center" width="550" src="https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/imgs/P3.jpg">
 
 ##### 3. Reformatting of Output Files
 Since the output of the BBox Label tool did not output the coordinates of the bounding boxes in a Pascal VOC format, which is in XML, I wrote a Python script that makes the conversion that is seen in the image below. That script can be found [here](https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/PascalReformat.py).
@@ -66,4 +66,4 @@ The project makes use of simple a SQL Alchemy Engine in order to send the read p
 
 
 ## Future Improvements
-Since this project was developed in merely a week, a lot of improvements could be made to this project. The main improvement would be to add more data into the YOLO Network, in order to improve the robustness of the bounding boxes. Secondly more experimentation could be done concerning the pre-processing in order to improve the OCR. Lastly, an important feature that could be added is an extensive dashboarding tool that creates effective overviews and insights of the user's logistics. 
+Since this project was developed in merely a week, a lot of improvements could be made to this project. The main improvement would be to add more data into the YOLO Network, in order to improve the robustness of the bounding boxes. Secondly more experimentation could be done concerning the pre-processing in order to improve the OCR. Lastly, an important feature that could be added is an extensive dashboarding tool that creates effective overviews and insights of the user's logistics.
