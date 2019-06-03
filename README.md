@@ -1,10 +1,12 @@
 # Nico-ALPR: Automatic License Plate Recognition for Logistics Management
-This is project that focused on the recognition and OCR of European and predominantly German License plates for the automation and optimization of logistics management in warehouses of Small to Medium Enterprises. In short, the project is a combination of the retraining of YOLO, a Deep Learning based Object Detection system, in combination with the Tesseract Library after applying my own pre-processing techniques.
+This is a project that focused on the recognition and OCR of license plates for the automation and optimization of logistics management in warehouses of small to medium enterprises. Logistical Tracking is something that not all companies can afford to do, since it often requires manpower and can be quite mundane (at least to a certain degree). Therefore the idea was to create a logistics tracking system that automatically logs license plates, creating data about the user's business which can then later provide valuable insights.
 
-#### **As a disclaimer: I only had a week to spend on this project, and that is all the time that has been spent on this project so far. It might be improved in the future.**
+The project is a combination of **object recognition** with **deep learning**, **image processing**, **optical character recognition** and **database logging**.
+
+#### **As a disclaimer: I only had a single week to spend on this project, and that is all the time that has been spent on this project so far. It might be improved in the future.**
 
 ## A demonstration
-Due to GDPR and Privacy Laws it is obviously not possible to show a recording from a public road to show the algorithms capabilities, therefore a small scene from a German Movie was used for demonstration purposes.
+Due to GDPR and German Privacy Laws it is not possible to show a recording from a public road to show the algorithm's actual performance, therefore a small scene from a German Movie was used for demonstration purposes.
 
 ![ALPR DEMO](https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/DEMO.gif)
 
@@ -40,7 +42,7 @@ I used the BBox Label Tool, which runs on Python 2.0, in order to annotate the i
 <img align="center" width="550" src="https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/imgs/P3.jpg">
 
 ##### 3. Reformatting of Output Files
-Since the output of the BBox Label tool did not output the coordinates of the bounding boxes in a Pascal VOC format, which is in XML, I wrote a Python script that makes the conversion that is seen in the image below. That script can be found [here](https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/PascalReformat.py).
+Since the output of the BBox Label tool did not output the coordinates of the bounding boxes in a Pascal VOC format, which is in XML, I wrote a Python script that makes the conversion that is seen in the image below (Conversion is from **right to left**). That script can be found [here](https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/PascalReformat.py).
 
 <img align="center" width="600" src="https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/imgs/P5.jpg">
 
