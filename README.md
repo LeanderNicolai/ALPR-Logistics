@@ -58,7 +58,7 @@ The results after 48 hours were quite good, with adequate tracking that allowed 
 For the optical character recognition Tesseract was used, which is an Open Source OCR Libary made by Google.
 
 #### My Own Pre-Processing Pipeline
-The results of using Tessearct directly on the bounding boxes drawn by the retrained network gave unsatisfactory results. Therefore some preprocessing and transformation had to be done. With use of some simple contract changes, and a hough transform in order to straighten out the image, the results were greatly improved.
+The results of using Tessearct directly on the bounding boxes drawn by the retrained network gave unsatisfactory results. Therefore some preprocessing and transformation had to be done. With use of some simple contrast changes, and a hough transform in order to straighten out the image, the results were greatly improved.
 
 <img align="center" width="200" src="https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/imgs/P1.jpg">     <img align="center" width="200"  src="https://github.com/LeanderNicolai/ALPR-Logistics/blob/master/imgs/P2.jpg">
 
