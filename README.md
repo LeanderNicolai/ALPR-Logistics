@@ -33,7 +33,7 @@ Due to GDPR and German Privacy Laws it is not possible to show a recording from 
 
 In order for this solution to work, quite a few interesting hurdles had be overcome, which are described below.
 
-### Retraining YOLO
+### Part 1: Retraining YOLO
 ##### 1. Shooting my own training footage
 For this project I had to shoot my own training footage by the side of a public road, which then had to be annotated in order to train the network.
 ##### 2. Annotation of Images
@@ -54,7 +54,7 @@ Once the images the network had to be trained. The total training took about 48 
 ##### 5. The results
 The results after 48 hours were quite good, with adequate tracking that allowed for continuation witht the OCR part of the project.
 
-### Optical Character Recognition
+### Part 2: Optical Character Recognition
 For the optical character recognition Tesseract was used, which is an Open Source OCR Libary made by Google.
 
 #### My Own Pre-Processing Pipeline
