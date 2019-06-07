@@ -1,3 +1,0 @@
-cython_utils
-darkflow
-utils
